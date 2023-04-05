@@ -1,0 +1,71 @@
+/* Write styles here */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white ;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+nav .brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav .nav-items a {
+  margin: 0 1rem;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.text{
+    padding:25px;
+    font-size: 20px;
+    font-family: Inter;
+   
+}
+#btn-1,#btn-2{
+        text-align: center;
+        padding: 0.5rem 1rem;
+        border: 1.5px solid black;
+        cursor: pointer;
+        Width : 120px ;
+        Height :35px;
+        font-family: Inter;
+        margin-left:25px;
+
+}
+.active{
+    background-color: black;
+        color: white;
+}
+.image img{
+      position: absolute;
+        width: 900px;
+        height: 600px;
+        margin-left: 600px;
+        top:120px;
+}
+.sideimage{
+    position: absolute;
+        width: 450px;
+        height: 400px;
+        margin-left: 25px;
+        top: 250px;
+}
